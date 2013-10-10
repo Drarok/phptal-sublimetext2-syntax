@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>shtml</string>
+		<string>xhtml</string>
+		<string>phtml</string>
+		<string>tmpl</string>
+		<string>tpl</string>
+	</array>
+	<key>name</key>
+	<string>PHPTAL Templates</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>begin</key>
+			<string>&lt;tal:</string>
+			<key>comment</key>
+			<string>Focuses on a phptal block or inline element</string>
+			<key>end</key>
+			<string>&gt;</string>
+			<key>name</key>
+			<string>entity.name.function.phptal</string>
+			<key>patterns</key>
+			<array>
+				<dict>
+					<key>begin</key>
+					<string>"</string>
+					<key>comment</key>
+					<string>A php tal attribute value</string>
+					<key>end</key>
+					<string>"</string>
+					<key>name</key>
+					<string>constant.other.color.phptal</string>
+				</dict>
+			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>&lt;/tal:</string>
+			<key>comment</key>
+			<string>Focuses on a phptal block or inline element</string>
+			<key>end</key>
+			<string>&gt;</string>
+			<key>name</key>
+			<string>entity.name.function.phptal</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\${</string>
+			<key>comment</key>
+			<string>A php tal variable</string>
+			<key>end</key>
+			<string>}</string>
+			<key>name</key>
+			<string>entity.name.tag.css</string>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>\btal:\w*=</string>
+			<key>comment</key>
+			<string>finds a tal tag attribute</string>
+			<key>end</key>
+			<string>"\s</string>
+			<key>name</key>
+			<string>entity.name.function.phptal</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>text.html.basic</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.phptal</string>
+	<key>uuid</key>
+	<string>445ef8a8-f32e-4db7-bfde-038abd44807e</string>
+</dict>
+</plist>
