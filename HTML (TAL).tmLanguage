@@ -9,7 +9,7 @@
 	<key>name</key>
 	<string>HTML (TAL)</string>
 	<key>scopeName</key>
-	<string>source.phptal</string>
+	<string>source.tal</string>
 	<key>uuid</key>
 	<string>445ef8a8-f32e-4db7-bfde-038abd44807e</string>
 
@@ -954,7 +954,7 @@
 			<array>
 				<dict>
 					<key>name</key>
-					<string>string.variable.phptal</string>
+					<string>string.variable.tal</string>
 					<key>comment</key>
 					<string>Attempting to match a TAL variable.</string>
 					<key>match</key>
@@ -968,7 +968,7 @@
 			<array>
 				<dict>
 					<key>name</key>
-					<string>constant.attribute.color.phptal</string>
+					<string>constant.attribute.color.tal</string>
 					<key>comment</key>
 					<string>Finds a TAL tag attribute.</string>
 					<key>match</key>
@@ -976,7 +976,7 @@
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>constant.quoted.double.phptal</string>
+					<string>constant.quoted.double.tal</string>
 					<key>comment</key>
 					<string>Identifies double-quote wrapped strings</string>
 					<key>begin</key>
@@ -986,7 +986,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.begin.phptal</string>
+							<string>punctuation.definition.string.begin.tal</string>
 						</dict>
 					</dict>
 					<key>end</key>
@@ -996,7 +996,7 @@
 						<key>0</key>
 						<dict>
 							<key>name</key>
-							<string>punctuation.definition.string.end.phptal</string>
+							<string>punctuation.definition.string.end.tal</string>
 						</dict>
 					</dict>
 					<key>patterns</key>
@@ -1017,7 +1017,7 @@
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.phptal</string>
+					<string>entity.name.function.tal</string>
 					<key>comment</key>
 					<string>Focuses on a TAL block or inline element.</string>
 					<key>begin</key>
@@ -1032,7 +1032,7 @@
 						</dict>
 						<dict>
 							<key>include</key>
-							<string>#constant.attribute.color.phptal</string>
+							<string>#constant.attribute.color.tal</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -1042,7 +1042,7 @@
 				</dict>
 				<dict>
 					<key>name</key>
-					<string>entity.name.function.phptal</string>
+					<string>entity.name.function.tal</string>
 					<key>comment</key>
 					<string>Focuses on a TAL closing block or inline element.</string>
 					<key>begin</key>
