@@ -978,9 +978,9 @@
 					<key>name</key>
 					<string>constant.quoted.double.tal</string>
 					<key>comment</key>
-					<string>Identifies double-quote wrapped strings</string>
+					<string>Identifies double-quote wrapped tal:define attribute strings</string>
 					<key>begin</key>
-					<string>"</string>
+					<string>(?&lt;=tal:define=)"</string>
 					<key>beginCaptures</key>
 					<dict>
 						<key>0</key>
