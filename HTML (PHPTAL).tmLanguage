@@ -7,7 +7,7 @@
 		<string>xhtml</string>
 	</array>
 	<key>name</key>
-	<string>HTML (PHPTAL)</string>
+	<string>HTML (TAL)</string>
 	<key>scopeName</key>
 	<string>source.phptal</string>
 	<key>uuid</key>
