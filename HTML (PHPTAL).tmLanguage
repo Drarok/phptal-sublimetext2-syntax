@@ -536,7 +536,7 @@
 		</dict>
 		<dict>
 			<key>include</key>
-			<string>#variable-generic-phptal</string>
+			<string>#variable-generic-tal</string>
 		</dict>
 	</array>
 	<key>repository</key>
@@ -794,6 +794,10 @@
 			<array>
 				<dict>
 					<key>include</key>
+					<string>#variable-generic-tal</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#embedded-code</string>
 				</dict>
 				<dict>
@@ -944,13 +948,13 @@
 				</dict>
 			</array>
 		</dict>
-		<key>variable-generic-phptal</key>
+		<key>variable-generic-tal</key>
 		<dict>
 			<key>patterns</key>
 			<array>
 				<dict>
 					<key>name</key>
-					<string>constant.attribute.color.phptal</string>
+					<string>string.variable.phptal</string>
 					<key>comment</key>
 					<string>Attempting to match a TAL variable.</string>
 					<key>match</key>
@@ -999,7 +1003,7 @@
 					<array>
 						<dict>
 							<key>include</key>
-							<string>#variable-generic-phptal</string>
+							<string>#variable-generic-tal</string>
 						</dict>
 						<dict>
 							<key>include</key>
@@ -1032,7 +1036,7 @@
 						</dict>
 						<dict>
 							<key>include</key>
-							<string>#variable-generic-phptal</string>
+							<string>#variable-generic-tal</string>
 						</dict>
 					</array>
 				</dict>
@@ -1058,7 +1062,7 @@
 				</dict>
 				<dict>
 					<key>include</key>
-					<string>#variable-generic-phptal</string>
+					<string>#variable-generic-tal</string>
 				</dict>
 				<dict>
 					<key>include</key>
